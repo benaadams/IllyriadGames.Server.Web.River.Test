@@ -3,7 +3,7 @@
   "version": "1.0.0-*",
 
 	"dependencies": {
-		"IllyriadGames.Server.Web.River": "0.0.1-*",
+		"IllyriadGames.Server.Web.River": "0.0.1-alpha3-2",
 		"Microsoft.AspNet.Mvc": "6.0.0-beta8-*"
 	},
 
@@ -12,10 +12,7 @@
   },
 
   "frameworks": {
-    "dnx46": { },
-		"dnxcore50": {
-			"dependencies": {"System.Collections": "4.0.11-beta-*"}
-		}
+		"dnxcore50": { }
   },
 
   "publishExclude": [

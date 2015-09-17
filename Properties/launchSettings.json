@@ -1,15 +1,12 @@
 {
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNET_ENV": "Development"
-      }
+    "kestrel": {
+      "commandName": "kestrel",
+      "sdkVersion": "dnx-coreclr-win-x64.1.0.0-beta8-15618"
     },
-    "web": {
-      "commandName": "web",
-      "sdkVersion": "dnx-coreclr-win-x64.1.0.0-beta8-15604"
+    "river": {
+      "commandName": "river",
+      "sdkVersion": "dnx-coreclr-win-x64.1.0.0-beta8-15618"
     }
   }
 }

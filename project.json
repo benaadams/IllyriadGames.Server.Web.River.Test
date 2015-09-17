@@ -3,9 +3,9 @@
 	"version": "1.0.0-*",
 
 	"dependencies": {
-		"IllyriadGames.Server.Web.River": "0.0.1-alpha3-*",
-		"Microsoft.AspNet.Mvc": "6.0.0-beta8-*",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*"
+		"IllyriadGames.Server.Web.River": "0.0.1-*",
+		"Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+		"Microsoft.AspNet.Mvc": "6.0.0-*"
 	},
 
 	"commands": {
@@ -18,10 +18,10 @@
 			"dependencies": {
 				"Microsoft.AspNet.Hosting": "1.0.0-*",
 				"Microsoft.AspNet.Http": "1.0.0-*",
-				"Microsoft.Framework.Configuration.CommandLine": "1.0.0-beta8-15582",
-				"Microsoft.Framework.Configuration.Json": "1.0.0-beta8-15582",
-				"Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta8-15582",
-				"Microsoft.Framework.Logging": "1.0.0-beta8-15571",
+				"Microsoft.Framework.Configuration.CommandLine": "1.0.0-*",
+				"Microsoft.Framework.Configuration.Json": "1.0.0-*",
+				"Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-*",
+				"Microsoft.Framework.Logging": "1.0.0-*",
 				"Microsoft.AspNet.Http.Features": "1.0.0-*"
 			}
 		}
